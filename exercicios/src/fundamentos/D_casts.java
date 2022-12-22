@@ -8,8 +8,8 @@ public class D_casts {
 	public static void main(String[] args) {
 //	#Locale.setDefault(new Locale("en", "US")); //para trocar as entradas aceitarem , em flutu. 
 
-		String sal1 = JOptionPane.showInputDialog("Entre com o Salario 1").replace(",", ".");
-		double val1 = Double.parseDouble(sal1);
+		String sal1 = JOptionPane.showInputDialog("Entre com o Salario 1");
+		double val1 = Double.parseDouble(sal1.replace(",", "."));
 
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Entre com o Salario 2");
@@ -22,6 +22,6 @@ public class D_casts {
 
 		double media = (val1 + val2 + val3) / 3;
 		scan.close();
-		System.out.println("A média dos 3 salários é R$" + media);
+		System.out.println("A mï¿½dia dos 3 salï¿½rios ï¿½ R$" + media);
 	}
 }

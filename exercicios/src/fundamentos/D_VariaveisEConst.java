@@ -10,11 +10,11 @@ public class D_VariaveisEConst {
 		System.out.println("Entre com o diametro");
 		d = s.nextFloat();
 		s.nextLine();
-		System.out.printf("A area do circulo é de %.2fcm²%n%n", d * d / 4 * pi);
+		System.out.printf("A area do circulo Ã© de %.2fcmï¿½%n%n", d * d / 4 * pi);
 		System.out.println("Entre com a temperatura em Celsius");
 		c = s.nextFloat();
 		s.nextLine();
 		s.close();
-		System.out.printf("A temperatura em Fahrenheit é %.2fF%n", (9. / 5.) * c + 32);
+		System.out.printf("A temperatura em Fahrenheit Ã© %.2fF%n", (9. / 5.) * c + 32);
 	}
 }
